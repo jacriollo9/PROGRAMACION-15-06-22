@@ -40,7 +40,7 @@ public class ArchivoBin {
     private static void AgregarClienteBin() throws IOException, ClassNotFoundException {
         Cliente objCliente = new Cliente();
         objCliente.setId(5);
-        objCliente.setNombre("Santiago Chiriboga");
+        objCliente.setNombre("Rosa Romero");
         objCliente.setFecNac("15062022");
 
 

@@ -9,7 +9,7 @@ import java.util.ArrayList;
  */
 
 public class ClienteBin {
-    File fichero =new File("C:\\Users\\josea\\OneDrive\\Escritorio\\Programacion\\ProgramacionCliente.dat");
+    File fichero =new File("C:\\Users\\josea\\OneDrive\\Escritorio\\Programacion\\Programacion\\Cliente.dat");
     public boolean GrabarClienteBin(Cliente cliente) throws FileNotFoundException, IOException, ClassNotFoundException {
         ArrayList<Cliente> ArrayClientes = ImportarClienteBin();
 
